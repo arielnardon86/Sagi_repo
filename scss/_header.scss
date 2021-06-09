@@ -1,0 +1,23 @@
+/*Header*/
+.menu-container {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: $bg-color;
+  display: flex;
+  justify-content: left;
+  border: $border;
+  z-index: 1;
+  font-size: 20px;
+  border-bottom: $border-botom;
+  transition: $transition;
+
+  nav ul li {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    &ul li a:hover {
+      transform: $transform;
+    }
+  }
+}
