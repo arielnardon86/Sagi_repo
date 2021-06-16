@@ -1,10 +1,11 @@
+/*Reset*/
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #f5e7e3;
+  background-color: #f2d0d7;
   font-size: 1rem;
   font-family: "Radley", serif;
 }
@@ -14,23 +15,21 @@ body {
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: #F2D0D7;
+  background-color: #f2d0d7;
   display: flex;
   justify-content: left;
   border: black;
   z-index: 1;
   font-size: 20px;
   border-bottom: 5px solid #a8a8a8;
-  transition: all 1s;
+  transition: all 0, 5s;
 }
-
-nav ul li {
+.menu-container nav ul li {
   display: flex;
   justify-content: space-around;
   margin-left: 20px;
 }
-
-.menu-container ul li a:hover {
+.menu-container nav ul liul li a:hover {
   transform: scale(1.2);
 }
 
@@ -50,11 +49,9 @@ nav ul li {
   margin-top: 10px;
   text-decoration: none;
 }
-
 .productos a {
   text-decoration: none;
 }
-
 .productos a img {
   padding-bottom: 10px;
   flex-wrap: wrap;
@@ -62,10 +59,9 @@ nav ul li {
   margin-top: 20px;
   padding-top: 10px;
   text-decoration: none !important;
-  transition: all 1s;
+  transition: all 0, 5s;
 }
-
-.productos a img:hover {
+.productos a imga img:hover {
   transform: scale(1.2);
 }
 
@@ -75,7 +71,7 @@ nav ul li {
   right: 0;
   padding: 15px;
   z-index: 2;
-  transition: all 1s;
+  transition: all 0, 5s;
 }
 
 .wp:hover {
@@ -94,8 +90,7 @@ nav ul li {
   align-items: center;
   width: 100%;
 }
-
-.verticalLine {
+.banner-services-footer verticalLine {
   border-left: solid black;
 }
 
