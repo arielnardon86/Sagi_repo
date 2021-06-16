@@ -78,6 +78,10 @@ body {
   transform: scale(1.2);
 }
 
+.productos-cards {
+  margin-left: 10px;
+}
+
 /*Footer*/
 .banner-services-footer {
   background: #ffffff;
