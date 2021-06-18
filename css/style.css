@@ -61,7 +61,7 @@ body {
   text-decoration: none !important;
   transition: all 0, 5s;
 }
-.productos a imga img:hover {
+.productos a img:hover {
   transform: scale(1.2);
 }
 

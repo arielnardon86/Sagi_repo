@@ -25,7 +25,7 @@
     text-decoration: none !important;
     transition: $transition;
 
-    &a img:hover {
+    &:hover {
       transform: $transform;
     }
   }
@@ -47,6 +47,7 @@
   margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 .row {
   margin-top: 15px;
