@@ -69,7 +69,7 @@ body {
 .productos a img {
   padding-bottom: 10px;
   flex-wrap: wrap;
-  margin-inline-start: 80px;
+  margin-inline-start: 20px;
   margin-top: 20px;
   padding-top: 10px;
   text-decoration: none !important;
