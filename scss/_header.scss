@@ -5,7 +5,7 @@
   top: 0;
   background-color: $bg-color;
   display: flex;
-  justify-content: left;
+  justify-content: right;
   border: $border;
   z-index: 1;
   font-size: 20px;
@@ -20,4 +20,20 @@
       transform: $transform;
     }
   }
+  a {
+    text-decoration: none;
+  }
+  a img {
+   
+    flex-wrap: wrap;
+    margin-inline-start: 15px;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-decoration: none !important;
+    transition: $transition;
+
+    &:hover {
+      transform: $transform;
+    }
+}
 }
