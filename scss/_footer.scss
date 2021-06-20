@@ -3,17 +3,18 @@
   background: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   width: 100%;
-  verticalLine {
-    border-left: solid black;
-  }
+  
 }
-
+.verticalLine {
+  border-left: solid black;
+}
 
 footer {
   width: 100%;
