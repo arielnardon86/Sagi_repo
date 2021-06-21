@@ -10,10 +10,24 @@
   align-content: center;
   align-items: center;
   width: 100%;
-  
+  p {
+    text-align: center;
+  }
+  h6 {
+    text-align: center;
+  }
+  i {
+    padding-left: 50%;
+    @media screen and (max-width: 980px) {
+      padding: 0%;;
+      }
+  }
 }
 .verticalLine {
   border-left: solid black;
+  @media screen and (max-width: 980px) {
+    display: none;
+    }
 }
 
 footer {

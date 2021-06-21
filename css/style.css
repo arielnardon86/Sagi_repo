@@ -116,11 +116,28 @@ body {
   align-items: center;
   width: 100%;
 }
+.banner-services-footer p {
+  text-align: center;
+}
+.banner-services-footer h6 {
+  text-align: center;
+}
+.banner-services-footer i {
+  padding-left: 50%;
+}
+@media screen and (max-width: 980px) {
+  .banner-services-footer i {
+    padding: 0%;
+  }
+}
 
 .verticalLine {
   border-left: solid black;
-  padding-left: 10px;
-  padding-right: 10px;
+}
+@media screen and (max-width: 980px) {
+  .verticalLine {
+    display: none;
+  }
 }
 
 footer {
