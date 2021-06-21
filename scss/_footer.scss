@@ -34,7 +34,7 @@ footer {
   width: 100%;
   a i {
     transition: $transition;
-  
+    text-decoration: none !important;
   &:hover {
     transform: $transform;
   }
