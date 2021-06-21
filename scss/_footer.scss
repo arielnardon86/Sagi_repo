@@ -32,4 +32,11 @@
 
 footer {
   width: 100%;
+  a i {
+    transition: $transition;
+  
+  &:hover {
+    transform: $transform;
+  }
+}
 }

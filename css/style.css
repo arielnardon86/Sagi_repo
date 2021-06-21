@@ -143,5 +143,11 @@ body {
 footer {
   width: 100%;
 }
+footer a i {
+  transition: all 0, 5s;
+}
+footer a i:hover {
+  transform: scale(1.2);
+}
 
 /*# sourceMappingURL=style.css.map */
