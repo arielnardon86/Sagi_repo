@@ -39,4 +39,11 @@ footer {
     transform: $transform;
   }
 }
+p {
+  transition: $transition;
+  text-decoration: none !important;
+&:hover {
+  transform: $transform;
+}
+}
 }

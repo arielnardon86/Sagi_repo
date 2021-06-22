@@ -145,8 +145,16 @@ footer {
 }
 footer a i {
   transition: all 0, 5s;
+  text-decoration: none !important;
 }
 footer a i:hover {
+  transform: scale(1.2);
+}
+footer p {
+  transition: all 0, 5s;
+  text-decoration: none !important;
+}
+footer p:hover {
   transform: scale(1.2);
 }
 
