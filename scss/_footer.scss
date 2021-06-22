@@ -32,6 +32,7 @@
 
 footer {
   width: 100%;
+  
   a i {
     transition: $transition;
     text-decoration: none !important;
@@ -41,9 +42,13 @@ footer {
 }
 p {
   transition: $transition;
-  text-decoration: none !important;
+  text-decoration: none;
 &:hover {
   transform: $transform;
 }
 }
+p a {
+  text-decoration: none;
+}
+
 }
